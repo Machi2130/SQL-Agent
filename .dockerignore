@@ -1,0 +1,8 @@
+.env
+.chroma_data/
+.git/
+__pycache__/
+*.pyc
+.pytest_cache/
+.code-review-graph/
+face_landmarker.task

@@ -1,0 +1,52 @@
+# Web framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# MCP server
+mcp>=1.10,<2
+
+# Data validation (FastAPI depends on this)
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# LLM client
+groq>=0.9.0
+
+# SQL databases
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+psycopg2-binary>=2.9.9
+pymssql>=2.2.11
+pyodbc>=5.0.0
+
+# NoSQL databases
+pymongo>=4.6.0
+cassandra-driver>=3.29.0
+
+# Vector search + schema retrieval
+# Embeddings use chromadb's bundled ONNX all-MiniLM-L6-v2 (no torch needed).
+numpy>=1.26.0
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+
+# Cache / message broker
+redis>=5.0.0
+
+# Persistence
+supabase>=2.4.0
+
+# Auth
+python-jose[cryptography]>=3.3.0
+httpx>=0.27.0
+
+# Utilities
+python-dotenv>=1.0.0
+networkx>=3.2.0
+
+# Vector DB (used by knowledge.py and docstore.py)
+chromadb>=0.5.0
+
+# Unstructured document ingestion
+pypdf>=4.0.0
+python-docx>=1.1.0
